@@ -20,7 +20,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build/make" name="TeamNexus/android_build" groups="pdk" remote="nexus" >
+  <project path="build/make" name="enesuzun2002/android_build" groups="pdk" remote="nexus" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -31,7 +31,7 @@
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
-  <project path="build/soong" name="TeamNexus/android_build_soong" groups="pdk,tradefed" remote="nexus" >
+  <project path="build/soong" name="enesuzun2002/android_build_soong" groups="pdk,tradefed" remote="nexus" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
