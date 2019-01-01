@@ -43,7 +43,7 @@
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
   <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
-  <!--<project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />-->
+  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
   <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
   <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
@@ -104,10 +104,9 @@
   <project path="vendor/nxp/opensource/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" />
   <project path="vendor/nxp/opensource/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" />
   <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" />
-  <!--<project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />-->
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" />
-  <!--<project path="vendor/qcom/opensource/rcs-service" name="LineageOS/android_vendor_qcom_opensource_rcs-service" />-->
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" />
 
   <!-- Infrastructure -->
