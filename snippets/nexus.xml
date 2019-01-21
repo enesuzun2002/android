@@ -4,7 +4,4 @@
     <remote name="nexus"
             fetch="https://github.com"
             revision="nx-9.0" />
-
-    <!-- NexusOS -->
-    <project path="prebuilts/linaro" name="TeamNexus/android_prebuilts_linaro" groups="pdk,linux,x86_64" remote="nexus" />
 </manifest>
