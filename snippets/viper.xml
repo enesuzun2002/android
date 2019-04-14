@@ -13,7 +13,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="viper" >
+  <project path="build/soong" name="enesuzun2002/android_build_soong" groups="pdk,tradefed" remote="github" revision="v-9.0" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -30,8 +30,8 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="viper" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="viper" />
-  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="viper" />
+  <project path="frameworks/base" name="enesuzun2002/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="v-9.0" />
+  <project path="frameworks/native" name="enesuzun2002/android_frameworks_native" groups="pdk" remote="github" revision="v-9.0" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="viper" />
